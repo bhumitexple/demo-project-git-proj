@@ -53,7 +53,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Solution_Name: WebApplication1.sln          # FIXED: .sln, not .slnx
+      Solution_Name: WebApplication1.slnx          # FIXED: .sln, not .slnx
       Test_Project_Path: WebApplication1.test/WebApplication1.Tests.csproj
 
     steps:
